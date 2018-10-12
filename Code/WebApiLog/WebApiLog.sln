@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApi", "SampleWebApi\SampleWebApi.csproj", "{222FE239-3669-46D4-88C9-5E91C94FA667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLog", "WebLog\WebLog.csproj", "{335D349F-91A1-4A6A-A8BB-A804D947FC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{0B5494C2-955B-42E7-8750-4FECACBE85F3}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\01- WebLog.sql = SQL\01- WebLog.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222FE239-3669-46D4-88C9-5E91C94FA667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FE239-3669-46D4-88C9-5E91C94FA667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FE239-3669-46D4-88C9-5E91C94FA667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FE239-3669-46D4-88C9-5E91C94FA667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335D349F-91A1-4A6A-A8BB-A804D947FC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335D349F-91A1-4A6A-A8BB-A804D947FC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335D349F-91A1-4A6A-A8BB-A804D947FC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335D349F-91A1-4A6A-A8BB-A804D947FC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C608D81-84CB-4F8A-A4FC-5B1322F382A0}
+	EndGlobalSection
+EndGlobal
